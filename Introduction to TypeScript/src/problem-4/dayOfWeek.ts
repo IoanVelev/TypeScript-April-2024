@@ -1,5 +1,5 @@
-function dayOfWeek(param): void {
-  const obj = {
+function dayOfWeek(param: string): void {
+  const obj: Object = {
     Monday: 1,
     Tuesday: 2,
     Wednesday: 3,
