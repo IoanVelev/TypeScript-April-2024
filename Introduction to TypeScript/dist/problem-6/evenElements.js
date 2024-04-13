@@ -5,7 +5,7 @@ function evenPositionElements(numArr) {
             filteredNums.push(numArr[index]);
         }
     }
-    let res = filteredNums.join(' ');
+    let res = filteredNums.join(" ");
     console.log(res);
 }
-evenPositionElements(['20', '30', '40', '50', '60']);
+evenPositionElements(["20", "30", "40", "50", "60"]);
