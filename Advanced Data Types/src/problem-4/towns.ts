@@ -5,11 +5,11 @@ type Town = {
 }
 
 
-function towns(input: Array<string>) {
+function towns(input: string[]) {
     let output: Town[] = [];
 
     for (const line of input) {
-        let info = line.split(" | ");
+        let info: string[] = line.split(" | ");
 
         const town: string = info[0];
         const latitude: string = Number(info[2]).toFixed(2).toString();
