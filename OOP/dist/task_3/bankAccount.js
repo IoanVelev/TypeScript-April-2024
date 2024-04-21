@@ -4,7 +4,7 @@ class BankAccount {
     balance = 0;
     interestRate = 0.02;
     constructor() {
-        this.id = BankAccount.latestId++;
+        this.id = ++BankAccount.latestId;
     }
     setInterestRate(interest) {
         this.interestRate = interest;
@@ -24,8 +24,8 @@ function testClient(input) {
         switch (cmd) {
             case "Create": {
                 const user = new BankAccount();
-                const currentUserId = db.length + 1;
                 db.push(user);
+                const currentUserId = db.length;
                 console.log(`Account ID${currentUserId} created`);
                 break;
             }
