@@ -1,5 +1,5 @@
 class BankAccount {
-  private static latestId: number = 1;
+  private static latestId: number = 0;
   private id: number;
   private balance: number = 0;
   private interestRate: number = 0.02;
