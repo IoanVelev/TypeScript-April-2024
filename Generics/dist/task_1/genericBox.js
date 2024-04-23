@@ -7,9 +7,9 @@ class Box {
         return `${this.param} is of type ${typeof this.param}`;
     }
 }
-const box1 = new Box('Despacito');
-const box2 = new Box([1, 2, 3]);
-const box3 = new Box(true);
+const box1 = new Box(['Despacito']);
+const box2 = new Box(20);
+const box3 = new Box('Hello');
 console.log(box1.toString());
 console.log(box2.toString());
 console.log(box3.toString());
