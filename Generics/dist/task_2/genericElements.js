@@ -4,8 +4,8 @@ class CompareElement {
         this.array = input1;
     }
     compare(input2) {
-        const res = this.array.filter(el => el === input2);
-        return res.length;
+        const res = this.array.filter(el => el === input2).length;
+        return res;
     }
 }
 const elements = new CompareElement(['a', 'b', 'ab', 'abc', 'cba', 'b']);
