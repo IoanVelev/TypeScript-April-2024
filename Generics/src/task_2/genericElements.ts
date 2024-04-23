@@ -6,9 +6,9 @@ constructor(input1: T[]) {
 }
 
 compare(input2: T): number {
-const res = this.array.filter(el => el === input2);
+const res: number = this.array.filter(el => el === input2).length;
 
-return res.length;
+return res;
 }
 }
 
