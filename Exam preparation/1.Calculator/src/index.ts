@@ -1,7 +1,9 @@
-
+type DictCalc = {
+    [key: string]: number;
+}
 
 function calc(num1: number, operator: string, num2: number): void {
-  const calcObj = {
+  const calcObj: DictCalc = {
     "+": num1 + num2,
     "-": num1 - num2,
     "*": num1 * num2,
