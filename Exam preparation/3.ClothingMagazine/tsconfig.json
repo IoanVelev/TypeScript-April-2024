@@ -3,6 +3,8 @@
         "target": "ES2022",
         "outDir": "./dist",
         "rootDir": "./src",
-        "lib": ["ESNext.Array", "DOM", "ESNext",]
+        "lib": ["ESNext.Array", "DOM", "ESNext",],
+        "module": "CommonJS",
+        "sourceMap": true
     }
 }
