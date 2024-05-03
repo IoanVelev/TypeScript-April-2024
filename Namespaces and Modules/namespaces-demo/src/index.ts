@@ -1,7 +1,16 @@
 namespace FootballGroup {
-    export class FootballTeam {
+    interface FootballTeamType {
+        teamName: string;
+        country: string;
+        totalPlayers: number
+    }
 
-        constructor(private teamName: string, private country: string, private totalPlayers: number) {
+    export class FootballTeam implements FootballTeamType {
+        teamName: string;
+        country: string;
+        totalPlayers: number;
+
+        constructor(teamName: string, country: string, totalPlayers: number) {
             this.teamName = teamName;
             this.country = country;
             this.totalPlayers = totalPlayers;
