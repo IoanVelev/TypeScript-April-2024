@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ES5" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "experimentalDecorators": true /* Enable experimental support for legacy experimental decorators. */,
-    "module": "commonjs" /* Specify what module code is generated. */,
     "rootDir": "./src" /* Specify the root folder within your source files. */,
-    "outDir": "./dist" /* Specify an output folder for all emitted files. */
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "sourceMap": true
   }
 }
