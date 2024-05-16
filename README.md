@@ -16,3 +16,9 @@ The "TypeScript" course focuses on learning one of the most popular languages â€
 -> Getting to know modules and decorators
 
 -> Building end-to-end applications with TypeScript
+
+
+# CERTIFICATE:
+
+![Screenshot_8-5-2024_181122_](https://github.com/IoanVelev/TypeScript-April-2024/assets/131281353/529d5c72-572e-42eb-a6a3-eda7a9f0b0d2)
+![Screenshot_8-5-2024_181149_](https://github.com/IoanVelev/TypeScript-April-2024/assets/131281353/2f7ede8a-9101-490d-9287-71a94a52150c)
